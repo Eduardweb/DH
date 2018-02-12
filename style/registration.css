@@ -145,3 +145,37 @@
 .following-info .form-group + .form-group {
   margin-bottom: 35px;
 }
+.send-sms{
+  width: 490px;
+} 
+.send-sms .registration-block{
+  padding: 45px 40px 50px;
+}
+.send-sms .btn-default{
+  width: 260px;
+  display: block;
+  margin: 0 auto;
+}
+.send-sms .btn-default+.btn-default{
+  margin-top: 10px;
+}
+.send-sms .sms-info {
+  margin-top: 35px;
+  margin-bottom: 30px;
+}
+.send-sms .sms-info p{
+  margin-bottom: 5px;
+}
+.send-sms .sms-info .phone{
+  color: #7da7d9;
+  margin-bottom: 30px;
+}
+.logout-restore{
+  width: 444px;
+}
+.logout-restore .registration-block{
+  padding: 65px 75px 70px;
+}
+.logout-restore p{
+  margin-bottom: 65px;
+}
