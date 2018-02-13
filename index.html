@@ -31,16 +31,19 @@
     <![endif]-->
   </head>
   <body>
-    <div w3-include-HTML="./header-not-registered.html"></div>
-    
-    <main>
-      <div w3-include-HTML="./registration/login-act-1-2-3.html"></div>
-      <div w3-include-HTML="./registration/login-forgot-pass.html"></div>
-      <div w3-include-HTML="./registration/login-send-sms.html"></div>
-      <div w3-include-HTML="./registration/login-restore_session.html"></div>
-    </main>
+    <div class="wrap">
+      <div w3-include-HTML="./header-not-registered.html"></div>
+      <div w3-include-HTML="./sidebar.html"></div>
 
-     <script type="text/javascript" src="./js/custom.js"></script>
+      <main class="content-wrapper">
+        <div w3-include-HTML="./registration/login-act-1-2-3.html"></div>
+        <div w3-include-HTML="./registration/login-forgot-pass.html"></div>
+        <div w3-include-HTML="./registration/login-send-sms.html"></div>
+        <div w3-include-HTML="./registration/login-restore_session.html"></div>
+      </main>
+    </div>
+
+    <script type="text/javascript" src="./js/custom.js"></script>
      
      <script> // W3-include  https://www.w3schools.com/howto/howto_html_include.asp
        w3.includeHTML(); 
