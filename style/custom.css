@@ -162,6 +162,12 @@ main{
   padding-top: 70px;
   margin-bottom: -70px;
 }
+.default-transition{
+  -webkit-transition: -webkit-transform .3s ease-in-out,width .3s ease-in-out;
+  -moz-transition: -moz-transform .3s ease-in-out,width .3s ease-in-out;
+  -o-transition: -o-transform .3s ease-in-out,width .3s ease-in-out;
+  transition: transform .3s ease-in-out,width .3s ease-in-out;
+}
 .btn-default{
   font-family: 'Open Sans bold';
   font-size: 14px;

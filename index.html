@@ -12,13 +12,16 @@
     
     <!-- custom -->
     <link rel="stylesheet" href="./style/custom.css">
-    
+     <!-- local registration css -->
+     <link rel="stylesheet" href="./style/sidebar.css">
+
     <!-- Bootstrap -->
-    <script src="https://code.jquery.com/jquery-3.1.1.slim.min.js" integrity="sha384-A7FZj7v+d/sdmMqp/nOQwliLvUsJfDHW+k9Omg/a/EheAdgtzNs3hpfag6Ed950n" crossorigin="anonymous"></script>
+    <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.3.1/jquery.min.js"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/tether/1.4.0/js/tether.min.js" integrity="sha384-DztdAPBWPRXSA/3eYEEUWrWCy7G5KFbe8fFjk5JAIxUYHKkDx6Qin1DkWx51bBrb" crossorigin="anonymous"></script>
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.6/umd/popper.min.js"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0-alpha.6/js/bootstrap.min.js" integrity="sha384-vBWWzlZJ8ea9aCX4pEW3rVHjgjt7zpkNpZk+02D9phzyeVkE+jo0ieGizqPLForn" crossorigin="anonymous"></script>
 
+    <script src="./node_modules/jq-accordion/dist/js/jquery.accordion.min.js"></script>
     <!-- Fontawesome -->
     <script src="https://use.fontawesome.com/dad88a02f4.js"></script>
     
@@ -32,8 +35,125 @@
   </head>
   <body>
     <div class="wrap">
+
       <div w3-include-HTML="./header-not-registered.html"></div>
-      <div w3-include-HTML="./sidebar.html"></div>
+
+      <aside class="main-sidebar default-transition">
+        <section class="main-sidebar-wrap" data-accordion-group>
+          <ul class="sidebar-menu tree">
+            <li class="treeview">
+              <a href="#">
+                <!-- "thank to designer" ng-if img  -->
+                <i class="img-menu">
+                  <img class="close-img" src="./img/icons/Icon-dashboard.png" alt="dashboard">
+                  <img class="active-img" src="./img/icons/Icon-dashboard-active.png" alt="dashboard">
+                </i>
+                <span>Dashboard</span>
+              </a>
+            </li>
+
+            <div class="treeview accordion" data-accordion>
+              <div data-control class="accordion-title">
+                <i class="img-menu">
+                  <img class="close-img" src="./img/icons/Icon-my-accounts.png" alt="my accounts">
+                  <img class="active-img" src="./img/icons/Icon-my-accounts-active.png" alt="my accounts">
+                </i>
+                <span>My accounts</span>
+                <span class="pull-right-container">
+                  <i class="fa fa-angle-down pull-right"></i>
+                </span>
+              </div>  
+              <div data-content>
+                <ul class="treeview-menu">
+                  <li><a href="#">Open deposit</a></li>
+                  <li><a href="#">Open current account</a></li>
+                  <li><a href="#">Credit line request</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="treeview accordion" data-accordion>
+              <div data-control class="accordion-title">
+                <i class="img-menu">
+                  <img class="close-img" src="./img/icons/Icon-my-cards.png" alt="my cards">
+                  <img class="active-img" src="./img/icons/Icon-my-cards-active.png" alt="my cards">
+                </i>
+                <span>My cards</span>
+                <span class="pull-right-container">
+                  <i class="fa fa-angle-down pull-right"></i>
+                </span>
+              </div>    
+              <div data-content>
+                <ul class="treeview-menu">
+                  <li><a href="#">Open deposit</a></li>
+                  <li><a href="#">Open current account</a></li>
+                  <li><a href="#">Credit line request</a></li>
+                </ul>
+              </div>
+            </div>
+            
+            <div class="treeview accordion" data-accordion>
+              <div data-control class="accordion-title">
+                <i class="img-menu">
+                  <img class="close-img" src="./img/icons/Icon-payments.png" alt="payments">
+                  <img class="active-img" src="./img/icons/Icon-payments-active.png" alt="payments">
+                </i>
+                <span>Payments</span>
+                <span class="pull-right-container">
+                  <i class="fa fa-angle-down pull-right"></i>
+                </span>
+              </div>
+              <div data-content>
+                <ul class="treeview-menu">
+                  <li><a href="#">Open deposit</a></li>
+                  <li><a href="#">Open current account</a></li>
+                  <li><a href="#">Credit line request</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="treeview accordion" data-accordion>
+              <div data-control class="accordion-title">
+                <i class="img-menu">
+                  <img class="close-img" src="./img/icons/Icon-my-business.png" alt="my business">
+                  <img class="active-img" src="./img/icons/Icon-my-business-active.png" alt="my business">
+                </i>
+                <span>My business</span>
+                <span class="pull-right-container">
+                  <i class="fa fa-angle-down pull-right"></i>
+                </span>
+              </div>
+              <div data-content>
+                <ul class="treeview-menu">
+                  <li><a href="#">Open deposit</a></li>
+                  <li><a href="#">Open current account</a></li>
+                  <li><a href="#">Credit line request</a></li>
+                </ul>
+              </div>
+            </div>
+
+            <div class="treeview accordion" data-accordion>
+              <div data-control class="accordion-title">
+                <i class="img-menu">
+                  <img class="close-img" src="./img/icons/Icon-my-assets.png" alt="my accounts">
+                  <img class="active-img" src="./img/icons/Icon-my-assets-active.png" alt="my accounts">
+                </i>
+                <span>My assets</span>
+                <span class="pull-right-container">
+                  <i class="fa fa-angle-down pull-right"></i>
+                </span>
+              </div>
+              <div data-content>
+                <ul class="treeview-menu">
+                  <li><a href="#">Open deposit</a></li>
+                  <li><a href="#">Open current account</a></li>
+                  <li><a href="#">Credit line request</a></li>
+                </ul>
+              </div>
+            </div> 
+
+        </section>
+      </aside>
 
       <main class="content-wrapper">
         <div w3-include-HTML="./registration/login-act-1-2-3.html"></div>
@@ -42,12 +162,11 @@
         <div w3-include-HTML="./registration/login-restore_session.html"></div>
       </main>
     </div>
-
+    
     <script type="text/javascript" src="./js/custom.js"></script>
-     
+    
      <script> // W3-include  https://www.w3schools.com/howto/howto_html_include.asp
        w3.includeHTML(); 
      </script>
-     
    </body>
  </html>

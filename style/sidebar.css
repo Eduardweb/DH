@@ -7,10 +7,6 @@
   width: 290px;
   z-index: 810;
   background-color: #2c405a;
-  -webkit-transition: -webkit-transform .3s ease-in-out,width .3s ease-in-out;
-  -moz-transition: -moz-transform .3s ease-in-out,width .3s ease-in-out;
-  -o-transition: -o-transform .3s ease-in-out,width .3s ease-in-out;
-  transition: transform .3s ease-in-out,width .3s ease-in-out;
 }
 .main-sidebar-wrap{
   padding: 60px 30px 50px 20px;
@@ -33,7 +29,20 @@
   font-size: 14px;
   color: #fff;
 }
-.sidebar-menu .treeview.active{
+.sidebar-menu .treeview .active-img{
+  display: none;
+}
+.sidebar-menu .treeview .close-img{
+  display: inline-block;
+}
+.sidebar-menu .treeview.open .active-img{
+  display: inline-block;
+}
+.sidebar-menu .treeview.open .close-img{
+  display: none;
+}
+.sidebar-menu .treeview.open,
+.sidebar-menu .treeview:hover{
   color: #faca00;
 }
 .sidebar-menu .treeview a{
@@ -57,5 +66,17 @@
 }
 .pull-right-container .fa{
   margin-top: 4px;
+  -webkit-transition: transform .4s ease;
+  -o-transition: transform .4s ease;
+  transition: transform .4s ease;
 }
-  
+.main-sidebar .accordion-title{
+  cursor: pointer;
+}
+.treeview.open .fa-angle-down,
+.treeview .fa-angle-down:hover{
+  -webkit-transform: rotate(180deg);
+  -ms-transform: rotate(180deg);
+  -o-transform: rotate(180deg);
+  transform: rotate(180deg);
+}

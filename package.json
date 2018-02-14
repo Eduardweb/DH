@@ -16,5 +16,8 @@
   "bugs": {
     "url": "https://github.com/Eduardweb/DH/issues"
   },
-  "homepage": "https://github.com/Eduardweb/DH#readme"
+  "homepage": "https://github.com/Eduardweb/DH#readme",
+  "dependencies": {
+    "jq-accordion": "^1.0.3"
+  }
 }
