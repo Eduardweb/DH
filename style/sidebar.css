@@ -29,17 +29,15 @@
   font-size: 14px;
   color: #fff;
 }
-.sidebar-menu .treeview .active-img{
+.sidebar-menu .treeview .active-img,
+.sidebar-menu .treeview.open .close-img,
+.sidebar-menu .treeview:hover .close-img{
   display: none;
 }
-.sidebar-menu .treeview .close-img{
+.sidebar-menu .treeview .close-img,
+.sidebar-menu .treeview.open .active-img,
+.sidebar-menu .treeview:hover .active-img{
   display: inline-block;
-}
-.sidebar-menu .treeview.open .active-img{
-  display: inline-block;
-}
-.sidebar-menu .treeview.open .close-img{
-  display: none;
 }
 .sidebar-menu .treeview.open,
 .sidebar-menu .treeview:hover{
