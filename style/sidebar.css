@@ -10,6 +10,14 @@
 }
 .main-sidebar-wrap{
   padding: 60px 30px 50px 20px;
+  transition: all 0.5s ease;
+}
+
+.main-sidebar-wrap.close-slider{
+  padding: 60px 8px 50px 8px;
+}
+.main-sidebar-wrap.close-slider .pull-right-container .fa{
+  display: none;
 }
 .sidebar-menu{
   white-space: nowrap;
@@ -77,4 +85,17 @@
   -ms-transform: rotate(180deg);
   -o-transform: rotate(180deg);
   transform: rotate(180deg);
+}
+.toggle-slider{
+  position: absolute;
+  top: 28px;
+  left: 12px;
+  font-size: 26px;
+}
+.two-box .box-bg{
+  padding: 40px 45px;
+  background-color: #a1a1a1;
+}
+.two-box .box-bg p{
+  margin: 0;
 }

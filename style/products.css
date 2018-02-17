@@ -1,0 +1,66 @@
+.products{
+  padding: 35px 50px;
+}
+.products section{
+  margin-bottom: 30px;
+}
+.box-white{
+  padding: 30px 35px 35px 30px;
+}
+.img-product {
+  margin-bottom: 5px;
+}
+.products .title{
+  min-height: 46px;
+}
+.img-product img{
+  width: 100%;
+  height: auto;
+}
+.products h3{
+  margin-bottom: 30px;
+}
+.products .offer{
+  margin: 20px 0 35px;
+}
+.products .offer p{
+  margin: 0;
+}
+.products .offer .date{
+  color: #000f23;
+}
+.products .more p{
+  margin: 0; 
+}
+.partners .title{
+  min-height: 66px;
+}
+.partners .subscribe-block{
+  margin-top: 15px;
+}
+.partners .subscribe-block p{
+  margin: 0;
+}
+.partners .comments,
+.partners .subscribe{
+  color: #000f23;
+}
+.partners .comments{
+  margin-right: 15px;
+}
+.partners .comments i,
+.partners .subscribe i{
+  display: inline-block;
+  width: 11px;
+  margin-right: 6px
+}
+.partners button{
+  display: block;
+  margin: 35px auto 0;
+  border-color: #a1a1a1;
+  padding: 12px 35px;
+  cursor: pointer;
+}
+.products .box-bg .title{
+  margin-bottom: 100px;
+}

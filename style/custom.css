@@ -51,6 +51,9 @@ body{
 .fontOSL{
   font-family: 'Open Sans Light';
 }
+.fontOSB{
+  font-family: 'Open Sans bold';
+}
 img{
   width: 100%;
   height: auto;
@@ -85,24 +88,36 @@ h2{
   line-height: 1.25; */
 }
 h3{
-  /* font-size: 56px;
-  font-weight: 600;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.25;
-  letter-spacing: -2.1px;
+  font-family: 'Open Sans Light';
+  font-size: 22px;
+  color: #000f23;
   text-align: left;
-  color: #222;
-  margin: 0; */
+  margin: 0;
 }
 h4{
-  /* font-size: 28px;
-  font-weight: 600;
-  font-style: normal;
-  font-stretch: normal;
-  line-height: 1.14;
-  letter-spacing: -0.5px;
-  text-align: left; */
+  font-family: 'Open Sans Regular';
+  font-size: 17px;
+  color: #000f23;
+  text-align: left;
+  line-height: 1.4;
+  margin: 0;
+}
+h5{
+  font-family: 'Open Sans Regular';
+  font-size: 16px;
+  color: #000f23;
+  text-align: left;
+  line-height: 1.4;
+  margin: 0;
+}
+.font30{
+  font-size: 30px;
+}
+.font22{
+  font-size: 22px;
+}
+.font20{
+  font-size: 20px;
 }
 .font16{
   font-size: 16px;
@@ -144,6 +159,9 @@ h4{
 .color-dark-blue{
   color: #2c405a;
 }
+.color-purple{
+  color: #158eb6;
+}
 .color-black{
   color: #000;
 }
@@ -160,6 +178,12 @@ section{
   width: 100%;
   position: relative;
 }
+.bg-white{
+  background-color: #fff;
+}
+.border-r5{
+  border-radius: 5px;
+}
 main{
   background-color: #deeffd;
   width: 100%;
@@ -167,6 +191,7 @@ main{
   height: 100%;
   padding-top: 70px;
   margin-bottom: -70px;
+  transition: all 2s ease;
 }
 .default-transition{
   -webkit-transition: -webkit-transform .3s ease-in-out,width .3s ease-in-out;
@@ -222,6 +247,15 @@ main{
 .m-auto{
   display: block;
   margin: 0 auto;
+}
+aside{
+  transition: all 0.5s ease;
+}
+aside + main{
+  padding-left: 290px;
+}
+aside + main.main-full{
+  padding-left: 50px;
 }
 /* ========= End Global ========== */
 

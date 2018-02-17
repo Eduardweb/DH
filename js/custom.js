@@ -4,6 +4,16 @@ function ready() {
   $('.accordion').accordion({
    "transitionSpeed": 400
   });
+
+  $('#toggle-button').click( function() {
+    var toggleWidth = $("#toggle").width() == 50 ? "290px" : "50px";
+    $('#toggle').animate({ width: toggleWidth });
+
+    $('#toggle-wrap').toggleClass( "close-slider" );
+    $('#main').toggleClass( "main-full" );
+  });
+
 }
+  
 
 document.addEventListener("DOMContentLoaded", ready);
