@@ -1,0 +1,71 @@
+.profile h3{
+  margin-bottom: 30px;
+}
+.top-green-border{
+  border-top: 4px solid #68e7a6;
+}
+.profile .box{
+  width: 100%;
+  margin-bottom: 17px;
+}
+.profile .user-info-block{
+  padding: 25px 18px 25px;
+}
+.profile .photo-block{
+  display: inline-block;
+  width: 100px;
+}
+.profile .photo-block p{
+  margin: 7px 0 0;
+}
+.profile .user-name{
+  display: inline-block;
+  vertical-align: top;
+  margin-left: 30px;
+}
+.profile .user-name p{
+  margin-bottom: 0;
+}
+.profile .user-name .name{
+  margin-bottom: 5px;
+}
+.profile .user-name .title{
+  display: inline-block;
+  width: 100px;
+}
+.profile .user-information{
+  padding: 15px 25px 15px;
+}
+.profile .user-information h5{
+  margin-bottom: 10px;
+}
+.profile .col-info{
+  font-size: 0;
+  margin-bottom: 5px;
+  margin-left: 20px;
+}
+.profile .col-info div{
+  display: inline-block;
+}
+.user-information .width40{
+  width: 40%;
+}
+.user-information .title-block{
+  max-width: 120px;
+}
+.user-information .progress-line-block{
+  max-width: 150px;
+}
+.user-information .width20{
+  width: 20%;
+}
+.user-information .percent{
+  margin-left: 35px;
+}
+.user-information .progress-line{
+  display: block;
+  background-color: #a4b5b8;
+  height: 4px;
+  margin-top: -7px;
+  position: relative;
+}

@@ -171,6 +171,9 @@ h5{
 .color-green{
   color: #81dc75;
 }
+.color-light-green{
+  color: #4ece3d;
+}
 .color-red{
   color: #ff151f;
 }
@@ -267,6 +270,15 @@ aside + main{
 }
 aside + main.main-full{
   padding-left: 50px;
+}
+.wrap-content{
+  padding: 35px 50px;
+}
+.box-white{
+  padding: 30px 35px 35px 30px;
+}
+.cursor-p{
+  cursor: pointer;
 }
 /* ========= End Global ========== */
 
