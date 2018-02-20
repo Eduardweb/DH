@@ -83,9 +83,9 @@ h1,h2{
   line-height: 1.25;
 }
 h2{
-  /* margin: 204px 0 0px;
-  text-align: left;
-  line-height: 1.25; */
+  font-size: 30px;
+  font-family: 'Open Sans Regular';
+  color: #000;
 }
 h3{
   font-family: 'Open Sans Light';
@@ -118,6 +118,9 @@ h5{
 }
 .font20{
   font-size: 20px;
+}
+.font18{
+  font-size: 16px;
 }
 .font16{
   font-size: 16px;
@@ -214,6 +217,16 @@ main{
   background-color: #fff;
   border-color: #2c405a;
 }
+.btn-green{
+  font-family: 'Open Sans bold';
+  font-size: 14px;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #4ece3d;
+  padding: 12px 30px;
+  position: relative;
+}
 .btn-arrow{
   padding: 12px 50px 12px 30px;
 }  
@@ -224,10 +237,8 @@ main{
   color: #a8c6df;
   position: absolute;
 }
-.btn-green{
-  /* width: 192px;
-  background-color: #6abf4b;
-  border-color: #6abf4b; */
+.btn-green.btn-arrow i{
+  color: #fff;
 }
 .btn-white{
   /* color: #222;
