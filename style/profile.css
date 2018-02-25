@@ -94,7 +94,7 @@
 }
 
 .profile .get-discount{
-
+  margin-bottom: 50px;
   padding: 10px;
   position: relative;
   background: -moz-linear-gradient(45deg, rgba(40,168,224,1) 0%, rgba(27,133,178,1) 100%); /* ff3.6+ */
@@ -121,10 +121,52 @@
   top: 2px;
 }
 .profile .get-discount .fa{
-  left: 0;
-  right: 0;
+  right: 50%;
   position: absolute;
-  top: 4px;
+  top: -15px;
   color: #a8c6df;
   font-size: 14px;
+}
+
+.profile .info-about-account{
+  padding: 22px;
+  background-color: #d8e5ee;
+}
+.profile .info-about-account p{
+  margin-bottom: 0;
+}
+.profile .info-about-account .inputs-block{
+  margin: 20px 0;
+}
+.profile .info-about-account .input-group-addon{
+  background-color: #fff;
+  min-width: 130px;
+  border-color: #fff;
+  color: #000;
+}
+.profile .info-about-account .form-control{
+  border-left: 0px;
+  border-color: #fff;
+  color: #898989;
+}
+.profile .info-about-account .input-group{
+  max-width: 420px;
+  margin-bottom: 2px;
+}
+.profile .inputs-block .input-group:last-child .input-group-addon,
+.profile .inputs-block .input-group:last-child .form-control{
+  border-top-left-radius: 0px;
+}
+
+.profile .inputs-block .input-group:last-child .form-control{
+  border-top-right-radius: 0px;
+}
+
+.profile .inputs-block .input-group:first-child .input-group-addon,
+.profile .inputs-block .input-group:first-child .form-control{
+  border-bottom-left-radius: 0px;
+}
+
+.profile .inputs-block .input-group:first-child .form-control{
+  border-bottom-right-radius: 0px;
 }
