@@ -37,6 +37,7 @@
 /* ============ Global ========== */
 *:focus{
   outline: none;
+  color: inherit;
 }
 .wrap{
   background-color: #2c405a;
@@ -146,6 +147,9 @@ h5{
 }
 .ml-10{
   margin-left: 10px;
+}
+.mb-30{
+  margin-bottom: 30px;
 }
 .box-shadow{
   box-shadow: 0 10px 30px 0 rgba(0, 0, 0, 0.05);

@@ -54,6 +54,9 @@
 .sidebar-menu .treeview a{
   position: relative;
 }
+.sidebar-menu .treeview a:focus{
+  color: #fff;
+}
 .sidebar-menu .treeview-menu{
   padding-left: 0px;
 }
@@ -85,12 +88,6 @@
   -ms-transform: rotate(180deg);
   -o-transform: rotate(180deg);
   transform: rotate(180deg);
-}
-.toggle-slider{
-  position: absolute;
-  top: 28px;
-  left: 12px;
-  font-size: 26px;
 }
 .two-box .box-bg{
   padding: 40px 45px;

@@ -48,7 +48,7 @@
   display: inline-block;
 }
 .user-information .width40{
-  width: 40%;
+  width: 34%;
 }
 .user-information .title-block{
   max-width: 120px;
@@ -153,6 +153,15 @@
   max-width: 420px;
   margin-bottom: 2px;
 }
+.profile .connected-services{
+  padding: 15px 25px 15px;
+}
+.profile .connected-services h5{
+  margin-bottom: 45px;
+}
+.profile .connected-services .img-service{
+  max-width: 65px;
+}
 .profile .inputs-block .input-group:last-child .input-group-addon,
 .profile .inputs-block .input-group:last-child .form-control{
   border-top-left-radius: 0px;
@@ -177,7 +186,7 @@
   font-size: 15px;
 }
 .profile .details-main{
-  padding: 30px 35px 50px 35px;
+  padding: 30px 35px 40px 35px;
 }
 .profile .details-main .form-group{
   margin-bottom: 0px;
@@ -213,8 +222,11 @@
   border-left: 1px solid #d8e5ee;
   position: relative;
 }
+.profile .details .form-check:last-child{
+  margin-bottom: 5px;
+}
 .profile .details .form-check-label input{
-  margin-right: 5px;
+  margin-right: 10px;
   opacity: 0;
 }
 .profile .details .hide-input::before{
@@ -240,4 +252,32 @@
 }
 .profile .details .calendar .form-control{
   padding-left: 50px;
+}
+.profile .details select{
+  max-width: 130px;
+  width: 100%;
+  margin-left: 30px;
+  background-color: transparent;
+  border: 0px;
+  margin-top: 10px;
+  /*for firefox*/
+  -moz-appearance: none;
+  /*for chrome*/
+  -webkit-appearance:none;
+  position: relative;
+  z-index: 2
+}
+.profile .details select::-ms-expand {
+  display: none;
+}
+.profile .details .select-block {
+  position: relative;
+  border-left: 1px solid #d8e5ee;
+}
+.profile .details .select-block i{
+  position: absolute;
+  left: 130px;
+  top: 11px;
+  z-index: 0;
+  color: #a8c6df;
 }
