@@ -1,0 +1,35 @@
+.e-learning .box-white{
+  padding: 50px 35px;
+}
+.e-learning .documents{
+  padding: 105px 35px 95px;
+  background-color: #ab7df6;
+}
+.e-learning .documents p{
+  margin: 0;
+}
+.e-learning .documents .title{
+  margin-bottom: 24px;
+}
+.e-learning .doc-btn{
+  margin-top: 60px;
+}
+.e-learning .view-all{
+  color: #a8c6df;
+}
+.e-learning  .instruction p{
+  margin: 0;
+  text-align:left;
+}
+.e-learning .btn-arrow {
+  padding: 6px 35px 6px 17px;
+}
+.e-learning .btn-arrow i {
+  right: 12px;
+  top: 11px;
+}
+.e-learning .btn-total-doc{
+  background-color: #a8c6df;
+  padding: 5px 7px 5px 7px;
+  margin-left: 10px;
+}
