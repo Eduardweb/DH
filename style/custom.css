@@ -241,6 +241,16 @@ main{
   padding: 12px 30px;
   position: relative;
 }
+.btn-violet{
+  font-family: 'Open Sans Regular';
+  font-size: 12px;
+  color: #fff;
+  border-radius: 4px;
+  cursor: pointer;
+  background-color: #ab7df6;
+  padding: 7px 14px;
+  position: relative;
+}
 .btn-arrow{
   padding: 12px 50px 12px 30px;
 }  
@@ -272,6 +282,9 @@ main{
 .m-auto{
   display: block;
   margin: 0 auto;
+}
+.m-0{
+  margin: 0;
 }
 aside{
   transition: all 0.5s ease;
