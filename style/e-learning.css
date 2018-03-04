@@ -185,6 +185,52 @@
   height: 70px;
   background-color: #c2c2c2;
 }
+.e-learning .about-banking{
+  padding: 80px 120px 160px;
+}
+.e-learning .about-banking .line{
+  width: 100%;
+  height: 1px;
+  background-color: #c2c2c2;
+  margin: 10px 0 65px;
+}
+.e-learning .about-banking h2{
+  margin-bottom: 40px;
+}
+.e-learning .about-banking p{
+  margin-bottom: 40px;
+}
+.e-learning .about-banking .logo{
+  display: inline-block;
+  width: 75px;
+  margin-top: -6px;
+  height: auto;
+  position: relative;
+  margin-right: 10px;
+}
+
+.e-learning .about-banking .about span{
+  vertical-align: middle;
+}
+.e-learning .about-banking .about p{
+  margin: 20px 0 90px;
+}
+.e-learning .about-banking .img-block{
+  height: 250px;
+  background-color: #c2c2c2;
+}
+.e-learning .about-banking .left-block{
+  padding-left: 10%;
+}
+.e-learning .about-banking .right-block{
+  padding-right: 10%;
+}
+.e-learning .about-banking .opportunities:last-child{
+  margin-top: 40px;
+}
+.e-learning .about-banking .opportunities p{
+  margin-bottom: 25px;
+}
 /*  */
 .setting-block.fixed-top{
   display: none;
