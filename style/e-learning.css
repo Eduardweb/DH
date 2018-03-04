@@ -145,3 +145,47 @@
 .e-learning .training-video .flex-block{
   margin-bottom: 30px;
 }
+.e-learning .training-learning{
+  padding: 70px 120px 100px 100px;
+}
+.e-learning .training-learning .box-bg{
+  height: 200px;
+  background-color: #c2c2c2;
+  margin-bottom: 46px;
+}
+.e-learning .training-learning h2{
+  margin-bottom: 30px;
+}
+.e-learning .training-learning .steps{
+  margin-top: 70px;
+}
+.e-learning .training-learning .steps h5{
+  margin-bottom: 15px;
+}
+.e-learning .training-learning .training-right{
+  padding: 70px 0 15px 50px;
+}
+.e-learning .training-learning .img-main{
+  height: 200px;
+  background-color: #c2c2c2;
+  margin-bottom: 15px;
+}
+.e-learning .img-main-container{
+  display: flex;
+  justify-content: space-between;
+}
+.e-learning .img-main-container .img-main-block{
+  width: 32%;
+}
+.e-learning .img-main-block p{
+  margin: 5px 0 0 ;
+}
+.e-learning .img-main-container .img-small{
+  width: 100%;
+  height: 70px;
+  background-color: #c2c2c2;
+}
+/*  */
+.setting-block.fixed-top{
+  display: none;
+}
