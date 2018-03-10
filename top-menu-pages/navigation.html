@@ -1,0 +1,77 @@
+<!-- local products css -->
+<link rel="stylesheet" href="./style/navigation.css">
+
+<div class="container-fluid navigation wrap-content">
+
+  <section class="bg-white border-r5 box-white">
+    <div class="row">
+      <div class="col-sm-12">
+        <h3>Find a branch or ATM</h3>
+      </div>
+    </div>  
+    <div class="row filter">
+      <div class="col-sm-5">
+        <div class="input-group">
+          <span class="font18 fontOSL search-filter">Search location</span>
+          <span class="input-group-btn">
+            <button class="btn btn-secondary" type="button">
+              <i class="fa fa-search color-white" aria-hidden="true"></i>
+            </button>
+          </span>
+          <input type="text" 
+            class="form-control search-input font14 fontOSL" 
+            placeholder="Enter address, city, state or ZIP code">
+        </div>
+      </div>
+      <div class="col-sm-5">
+        <label class="checkbox-inline">
+          <input type="checkbox" value=""><span>All</span>
+        </label>
+        <label class="checkbox-inline">
+          <input type="checkbox" value=""><span>Branches</span>
+        </label>
+        <label class="checkbox-inline">
+          <input type="checkbox" value=""><span>ATMs</span>
+        </label>
+        <label class="checkbox-inline">
+          <input type="checkbox" value=""><span>Kiosks</span>
+        </label>
+      </div>
+      <div class="col-sm-2">
+        <div class="form-group pull-right filter-select">
+          <i class="fa fa-angle-down" aria-hidden="true"></i>
+          <select class="form-control" id="sel1">
+            <option>Filter</option>
+            <option>2</option>
+            <option>3</option>
+            <option>4</option>
+          </select>
+        </div>
+      </div>
+    </div>
+    <div class="row map">
+      <div class="col-sm-3 info-block">
+        <div class="box-shadow info-location">
+          <h2 class="color-dark-blue font22">Select a location</h2>
+          <p class="color-dark-blue fontOSL font13">We couldn’t find any U.S. Bank branches 
+              or ATMs within 50 miles of the area you 
+              searched. Try again with a different address 
+              or zip code, or call us at 800-720-2265
+              for help. 
+          </p>
+          <button class="btn btn-default uppercase btn-arrow">
+              Show all locations
+            <i class="fa fa-angle-right" aria-hidden="true"></i>
+          </button>
+        </div>
+      </div>
+      <div class="col-sm-9">
+        <img src="./../img/map.png" alt="">
+      </div>
+    </div>
+
+  </section>
+
+  
+
+</div>

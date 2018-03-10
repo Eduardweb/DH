@@ -1,0 +1,62 @@
+.navigation .fa-search{
+  color: #000f23;
+}
+.navigation .filter {
+  margin: 50px 0 20px;
+}
+.navigation .filter .search-input{
+  border-left: 0;
+  border-color: #c2c2c2;
+  padding-left: 5px;
+  max-width: 300px;
+}
+.navigation .filter .search-filter{
+  margin: 6px 18px 0 0;
+}
+.navigation .filter .input-group-btn:not(:first-child)>.btn{
+  border-bottom-left-radius: 5px;
+  border-top-left-radius: 5px;
+}
+.navigation .filter .checkbox-inline span{
+  margin: 0 30px 0 10px;
+}
+.navigation .filter input:checked + span{
+  color: #0093ee;
+}
+.navigation .filter-select select{
+  width: inherit;
+  min-width: 100px;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  position: relative;
+  z-index: 2;
+  background-color: transparent;
+  border-color: #0093ee;
+  color: #0093ee;
+}
+.navigation .filter-select i{
+  position: absolute;
+  right: 25px;
+  top: 11px;
+  z-index: 0;
+  color: #0093ee;
+}
+.navigation .info-location{
+  padding: 40px 20px 0 17px;
+  height: 100%;
+}
+.navigation .info-location p{
+  line-height: 22px;
+}
+.navigation .map button{
+  margin-top: 90px;
+}
+.navigation .map .info-block{
+  padding-right: 0px;
+}
+.navigation .map .info-block h2{
+  margin-bottom: 25px;
+}
+.navigation .map div + div{
+  padding-left: 0px;
+}
