@@ -78,9 +78,6 @@ p{
   font-family: 'Open Sans Light';
   font-size: 15px;
 }
-h1,h2,h3,h4,h5,h6{
-  /* font-family: 'Poppins'; */
-}
 h1,h2{
   font-size: 22px;
   font-family: 'Open Sans bold';
@@ -267,20 +264,25 @@ main{
 .btn-green.btn-arrow i{
   color: #fff;
 }
-.btn-white{
-  /* color: #222;
-  background-color: inherit;
-  border-color: #979797; */
+header .menu .active{
+  position: relative;
 }
-.btn-green:hover{
-  /* color: #222;
-  background-color: inherit;
-  border-color: #979797; */
+header .menu .active::before,
+header .menu .active::after{
+  content: "";
+  position: absolute;
+  display: block;
+  width: 200%;
+  height: 1px;
+  background-image: url(./../img/icons/active-menu.png);
+  background-repeat: no-repeat;
+  left: -20px;
 }
-.btn-white:hover{
-  /* color: #fff;
-  background-color: #6abf4b;
-  border-color: #6abf4b; */
+header .menu .active::before{
+  top: -7px;
+}
+header .menu .active::after{
+  bottom: -7px;
 }
 .m-auto{
   display: block;
