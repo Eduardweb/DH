@@ -48,6 +48,9 @@
 .navigation .info-location p{
   line-height: 22px;
 }
+.navigation .map{
+  margin-bottom: 55px;
+}
 .navigation .map button{
   margin-top: 90px;
 }
@@ -60,3 +63,74 @@
 .navigation .map div + div{
   padding-left: 0px;
 }
+.navigation .favorite{
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  margin: 10px 0;
+}
+.navigation .draggable-item{
+  width: 25px;
+  height: 25px;
+  background-image: url('./../img/icons/favorite-item.png');
+  background-repeat: no-repeat;
+  background-position: 50% 50%;
+  border-right: 1px solid #f3f3f3;
+}
+.navigation .location{
+  position: relative;
+  padding-left: 30px;
+  background-image: url('./../img/icons/map-item.png');
+  background-repeat: no-repeat;
+  background-position: 8px 50%;
+}
+.navigation .address{
+  position: relative;
+  padding-left: 30px;
+  background-image: url('./../img/icons/arrow-blue.png');
+  background-repeat: no-repeat;
+  background-position: 8px 10px;
+}
+.navigation .address span{
+  border-bottom: 1px dotted #2c405a;
+}
+.navigation .time{
+  position: relative;
+  padding-left: 80px;
+}
+.navigation .time select{
+  border: 0;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+  position: relative;
+  z-index: 2;
+  background-color: transparent;
+  padding: 0 15px 0 0;
+}
+.navigation .time span{
+  position: absolute;
+  left: 5px;
+  top: 7px;
+}
+.navigation .time i{
+  position: absolute;
+  right: 0;
+  top: 11px;
+  z-index: 0;
+  color: #0093ee;
+}
+.navigation .favorite-icons span{
+  margin: 0 7px;
+}
+.navigation .favorite-icons img{
+  height: 19px;
+  width: auto;
+}
+.navigation .favorite-delete{
+  margin-right: 2px;
+}
+.navigation .favorite-delete img{
+  border: 1px solid #c5d9e8;
+  padding: 5px 9px;
+}
+
