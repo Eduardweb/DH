@@ -64,17 +64,20 @@
   padding-left: 0px;
 }
 .navigation .favorite{
-  display: flex;
+  /* display: flex;
   justify-content: space-between;
-  align-items: center;
+  align-items: center; */
   margin: 10px 0;
 }
+.navigation .favorite div{
+  display: inline-block;
+}  
 .navigation .draggable-item{
   width: 25px;
   height: 25px;
   background-image: url('./../img/icons/favorite-item.png');
   background-repeat: no-repeat;
-  background-position: 50% 50%;
+  background-position: 50% 90%;
   border-right: 1px solid #f3f3f3;
 }
 .navigation .location{
@@ -128,9 +131,17 @@
 }
 .navigation .favorite-delete{
   margin-right: 2px;
+  margin-left: 10px;
 }
 .navigation .favorite-delete img{
   border: 1px solid #c5d9e8;
   padding: 5px 9px;
 }
-
+.location,
+.address,
+.time,
+.city,
+.phone{
+  min-width: 165px;
+  margin-left: 10px;
+}

@@ -1,0 +1,36 @@
+.pop-up-wrap{
+  width: 380px;
+  position: relative;
+  margin: 40px auto;
+}
+.pop-up-block{
+  padding: 40px;
+  background-color: #fff;
+  border-radius: 5px;
+  position: relative;
+}
+.pop-up-block p{
+  margin: 0;
+}
+.pop-up-block button{
+  display: block;
+  margin: 30px auto 0;
+}
+.oops .pop-up-block .help{
+  margin-top: 25px;
+}
+.oops .help a{
+  border-bottom: 1px dotted ;
+}
+.pop-up-logo img{
+  width: 45px;
+  height: auto;
+}
+.pop-up-logo .pop-up-time{
+  margin-top: 25px;
+  width: 75px;
+  height: auto;
+}
+.pop-up-logo{
+ margin-bottom: 35px;
+}
