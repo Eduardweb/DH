@@ -29,6 +29,7 @@
   margin-bottom: 20px;
 }
 .registration-block .input-group{
+  position: relative;
   margin-bottom: 10px;
   max-width: 300px;
 }
@@ -65,6 +66,11 @@
 }
 .registration-form .input-group .form-control{
   color: #2c405a;
+}
+.registration-form .info{
+  position: absolute;
+  right: -30px;
+  top: 5px;
 }
 .registration-form .wrong img{
   width: 12px;
@@ -147,14 +153,23 @@
 }
 .send-sms{
   width: 490px;
-} 
+}
+.send-sms-width-logo{
+  width: 440px;
+}  
 .send-sms .registration-block{
   padding: 45px 40px 50px;
+}
+.send-sms-width-logo .registration-block{
+  padding: 45px 35px 50px;
 }
 .send-sms .btn-default{
   width: 260px;
   display: block;
   margin: 0 auto;
+}
+.send-sms-width-logo .btn-default{
+  width: 100%; 
 }
 .send-sms .btn-default+.btn-default{
   margin-top: 10px;
@@ -178,4 +193,44 @@
 }
 .logout-restore p{
   margin-bottom: 65px;
+}
+.pop-up-logo {
+  margin-bottom: 35px;
+}
+.pop-up-logo img {
+  width: 45px;
+  height: auto;
+}
+.forgot-pass{
+ width: 440px;
+}
+.forgot-pass .registration-block {
+  padding: 40px 50px 50px;
+}
+.forgot-pass .form-control::placeholder{
+  color: #a8c6df;
+}
+.forgot-pass .recovery-type p{
+  margin: 0;
+}
+.forgot-pass .recovery-type p.type-item-title{
+  margin-bottom: 10px;
+}
+.forgot-pass p.type-item{
+  margin-left: 15px;
+  position: relative;
+}
+.forgot-pass .type-item::before{
+  content: '';
+  display: block;
+  position: absolute;
+  width: 10px;
+  height: 10px;
+  background-image: url('./../img/icons/Arrows _ Type 1_Left.png');
+  background-repeat: no-repeat;
+  left: -15px;
+  top: 7px;
+}
+.forgot-pass .recovery-type{
+  margin-bottom: 20px;
 }
