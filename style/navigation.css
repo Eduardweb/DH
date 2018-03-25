@@ -64,9 +64,6 @@
   padding-left: 0px;
 }
 .navigation .favorite{
-  /* display: flex;
-  justify-content: space-between;
-  align-items: center; */
   margin: 10px 0;
 }
 .navigation .favorite div{
@@ -137,11 +134,11 @@
   border: 1px solid #c5d9e8;
   padding: 5px 9px;
 }
-.location,
-.address,
-.time,
-.city,
-.phone{
+.navigation .location,
+.navigation .address,
+.navigation .time,
+.navigation .city,
+.navigation .phone{
   min-width: 165px;
   margin-left: 10px;
 }
