@@ -184,9 +184,6 @@
   position: relative;
   z-index: 1;
 }
-.open-deposit .offers{
-  max-height: 535px;
-}
 .open-deposit .offer{
   padding: 20px;
   border: 1px solid #d8e5ee;
@@ -239,4 +236,26 @@
   position: relative;
   top: 1px;
   left: 5px;
+}
+.open-deposit .opening-deposit{
+  padding: 20px 30px;
+  border: 1px solid #d8e5ee;
+}
+.open-deposit .offers,
+.open-deposit .opening-deposit{
+  height: 535px;
+}
+.open-deposit .currency{
+  padding: 6px 20px;
+  border: 1px solid #c2c2c2;
+  color: #2c405a;
+  cursor: pointer;
+  margin-bottom: 35px;
+}
+.open-deposit .currency + .currency{
+  margin-left: 10px;
+}
+.open-deposit .currency.active{
+  background-color: #d8e5ee;
+  border-color: #d8e5ee;
 }
