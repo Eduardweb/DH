@@ -259,3 +259,33 @@
   background-color: #d8e5ee;
   border-color: #d8e5ee;
 }
+.banking-dashboard .deposits-wrap{
+  font-size: 0;
+}
+.banking-dashboard .deposit{
+  display: inline-block;
+  width: 50%;
+  padding-right: 50px;
+  margin-top: 35px;
+}
+.banking-dashboard .deposit-range{
+  width: 100%;
+  position: relative;
+}
+.banking-dashboard .deposit-input{
+  text-align: right;
+  display: inline-block;
+  margin-right: 10px;
+  border: 1px solid #a8c6df;
+}
+.banking-dashboard .amount{
+  width: 120px;
+}
+.banking-dashboard .term{
+  width: 78px;
+}
+.banking-dashboard .deposit-title{
+  margin-bottom: 25px;
+}
+ 
+
