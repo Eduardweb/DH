@@ -243,7 +243,7 @@
 }
 .open-deposit .offers,
 .open-deposit .opening-deposit{
-  height: 535px;
+  height: 600px;
 }
 .open-deposit .currency{
   padding: 6px 20px;
@@ -287,5 +287,42 @@
 .banking-dashboard .deposit-title{
   margin-bottom: 25px;
 }
- 
-
+.open-deposit button{
+  display: block;
+  margin: 30px auto 0;
+}
+.open-deposit .payment-type{
+  position: relative;
+  display: inline-block;
+  margin-top: 35px;
+  margin-bottom: 25px;
+}
+.open-deposit select{
+  width: inherit;
+  position: relative;
+  min-width: 200px;
+  border: 1px solid #a8c6df;
+  color: #3f536e;
+  display: inline-block;
+  margin-left: 10px;
+  background: inherit;
+  -moz-appearance: none;
+  -webkit-appearance: none;
+}
+.open-deposit .payment-type i{
+  position: absolute;
+  color: #a8c6df;
+  right: 15px;
+  top: 11px;
+  z-index: 0;
+}
+.deposit-center .per {
+  margin-top: 8px;
+}
+.deposit-center .per span{
+  padding: 5px 10px;
+  background-color: #ecf5fd;
+}
+.deposit-center .gross{
+  margin-bottom: 3px;
+}
